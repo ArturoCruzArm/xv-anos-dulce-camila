@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logística del Evento - XV Años Dulce Camila</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .nav-links a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .content {
+            padding: 3rem 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            color: #667eea;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #667eea;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .info-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8eef5 100%);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .info-card h3 {
+            color: #764ba2;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .info-card p {
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+        .info-card strong {
+            color: #667eea;
+        }
+
+        .checklist {
+            list-style: none;
+        }
+
+        .checklist li {
+            padding: 0.75rem;
+            margin-bottom: 0.5rem;
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .checklist li:before {
+            content: "☐";
+            font-size: 1.5rem;
+            color: #667eea;
+        }
+
+        .checklist li.completed:before {
+            content: "✓";
+            color: #10b981;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+            padding-left: 2rem;
+        }
+
+        .timeline-item:before {
+            content: "";
+            position: absolute;
+            left: -2.6rem;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: white;
+            border: 3px solid #667eea;
+        }
+
+        .timeline-item.completed:before {
+            background: #10b981;
+            border-color: #10b981;
+        }
+
+        .timeline-date {
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 0.25rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+        }
+
+        .status-completed {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .status-pending {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .status-urgent {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .contact-box h3 {
+            margin-bottom: 1rem;
+        }
+
+        .contact-box a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .map-container {
+            margin-top: 1rem;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+
+        @media (max-width: 768px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📋 Logística del Evento</h1>
+            <p>XV Años de Dulce Camila Aviña Franco - 16 de Mayo, 2026</p>
+
+            <div class="nav-links">
+                <a href="index.html">Invitación</a>
+                <a href="contrato.html">Contrato</a>
+                <a href="logistica.html">Logística</a>
+                <a href="publicidad.html">Publicidad</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- Información General -->
+            <section class="section">
+                <h2 class="section-title">
+                    📅 Información General del Evento
+                </h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>⛪ Ceremonia Religiosa</h3>
+                        <p><strong>Lugar:</strong> Templo de los Laureles</p>
+                        <p><strong>Dirección:</strong> Colonia Los Laureles, León, Gto.</p>
+                        <p><strong>Hora:</strong> 5:00 PM</p>
+                        <p><strong>Fecha:</strong> 16 de Mayo, 2026</p>
+                        <p style="margin-top: 1rem; color: #ef4444;">⚠️ Confirmar dirección exacta</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>🎉 Recepción / Fiesta</h3>
+                        <p><strong>Lugar:</strong> La Haciendita</p>
+                        <p><strong>Dirección:</strong> <a href="https://maps.app.goo.gl/Hn6S7gpP67kwEdrF8?g_st=iw" target="_blank" style="color: #667eea;">Ver en Google Maps</a></p>
+                        <p><strong>Hora:</strong> Después de la misa</p>
+                        <p style="margin-top: 1rem; color: #ef4444;">⚠️ Confirmar hora exacta de inicio</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>📸 Sesión Fotográfica</h3>
+                        <p><strong>Fecha:</strong> Por definir</p>
+                        <p><strong>Hora:</strong> Por definir</p>
+                        <p><strong>Lugar:</strong> Por definir</p>
+                        <p style="margin-top: 1rem; color: #ef4444;">⚠️ Pendiente de coordinación</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Timeline -->
+            <section class="section">
+                <h2 class="section-title">
+                    🕐 Cronología del Proyecto
+                </h2>
+                <div class="timeline">
+                    <div class="timeline-item completed">
+                        <p class="timeline-date">9 de Diciembre, 2025 <span class="status-badge status-completed">✓ Completado</span></p>
+                        <p>Primer contacto con la clienta Ana Leticia Franco Sánchez</p>
+                    </div>
+
+                    <div class="timeline-item completed">
+                        <p class="timeline-date">20 de Diciembre, 2025 <span class="status-badge status-completed">✓ Completado</span></p>
+                        <p>Recepción de apartado de $500 MXN vía transferencia bancaria BBVA</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <p class="timeline-date">Por Definir <span class="status-badge status-urgent">⚠️ Urgente</span></p>
+                        <p>Sesión fotográfica previa al evento</p>
+                        <p style="font-size: 0.9em; color: #666; margin-top: 0.5rem;">Coordinar fecha, hora y locación con la clienta</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <p class="timeline-date">1 de Mayo, 2026 <span class="status-badge status-pending">⏳ Pendiente</span></p>
+                        <p>Fecha límite para confirmación de asistencia de invitados</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <p class="timeline-date">9 de Mayo, 2026 <span class="status-badge status-urgent">⚠️ Importante</span></p>
+                        <p>Fecha límite de pago del saldo restante: $6,000 MXN</p>
+                        <p style="font-size: 0.9em; color: #666; margin-top: 0.5rem;">7 días antes del evento</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <p class="timeline-date">16 de Mayo, 2026 <span class="status-badge status-pending">⏳ Pendiente</span></p>
+                        <p><strong>DÍA DEL EVENTO</strong></p>
+                        <p>5:00 PM - Ceremonia en Templo de los Laureles</p>
+                        <p>Después - Recepción en La Haciendita</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <p class="timeline-date">Junio-Julio, 2026 <span class="status-badge status-pending">⏳ Pendiente</span></p>
+                        <p>Entrega de material final (30-45 días después del evento)</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Checklist Foro 7 -->
+            <section class="section">
+                <h2 class="section-title">
+                    ✅ Checklist Foro 7 - Antes del Evento
+                </h2>
+
+                <h3 style="color: #764ba2; margin: 1.5rem 0 1rem;">Sesión Previa</h3>
+                <ul class="checklist">
+                    <li>Coordinar fecha de sesión con la clienta</li>
+                    <li>Coordinar hora de sesión</li>
+                    <li>Definir locación de la sesión</li>
+                    <li>Verificar equipo fotográfico (cámaras, lentes)</li>
+                    <li>Cargar todas las baterías</li>
+                    <li>Formatear tarjetas de memoria</li>
+                    <li>Llevar reflectores/iluminación portátil</li>
+                </ul>
+
+                <h3 style="color: #764ba2; margin: 1.5rem 0 1rem;">Día del Evento</h3>
+                <ul class="checklist">
+                    <li>Confirmar dirección exacta del Templo de los Laureles</li>
+                    <li>Confirmar dirección de La Haciendita</li>
+                    <li>Verificar hora exacta de inicio de fiesta</li>
+                    <li>Verificar equipo completo (cámaras, lentes, audio)</li>
+                    <li>Cargar todas las baterías</li>
+                    <li>Llevar baterías de repuesto</li>
+                    <li>Llevar tarjetas de memoria formateadas</li>
+                    <li>Verificar iluminación (3 flashes foto, 2 luces video)</li>
+                    <li>Confirmar recepción del saldo ($6,000)</li>
+                    <li>Llegar 30 minutos antes a la misa</li>
+                </ul>
+
+                <h3 style="color: #764ba2; margin: 1.5rem 0 1rem;">Post-Evento</h3>
+                <ul class="checklist">
+                    <li>Respaldar todo el material (fotos y video)</li>
+                    <li>Editar fotografías</li>
+                    <li>Editar video (musicalizar y titular)</li>
+                    <li>Crear videoclip para proyección</li>
+                    <li>Cliente selecciona 100 fotos para impresión</li>
+                    <li>Imprimir fotografías 5x7"</li>
+                    <li>Imprimir ampliación 50x60 cm con marco</li>
+                    <li>Preparar USB con cajas impresas</li>
+                    <li>Entregar material completo al cliente</li>
+                </ul>
+            </section>
+
+            <!-- Información Pendiente -->
+            <section class="section">
+                <h2 class="section-title">
+                    ⚠️ Información Pendiente
+                </h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>🔴 Prioridad Alta</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 0.5rem;">❌ Nombre completo del papá de Dulce Camila</li>
+                            <li style="margin-bottom: 0.5rem;">❌ Hora exacta de inicio de la fiesta</li>
+                            <li style="margin-bottom: 0.5rem;">❌ Fecha de sesión fotográfica</li>
+                            <li style="margin-bottom: 0.5rem;">❌ Hora de sesión fotográfica</li>
+                            <li style="margin-bottom: 0.5rem;">❌ Lugar de sesión fotográfica</li>
+                            <li style="margin-bottom: 0.5rem;">❌ Dirección exacta Templo de los Laureles</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>🟡 Para Invitación Web</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 0.5rem;">❌ Código de vestuario</li>
+                            <li style="margin-bottom: 0.5rem;">❌ Colores de la fiesta</li>
+                            <li style="margin-bottom: 0.5rem;">❌ Mensaje especial</li>
+                            <li style="margin-bottom: 0.5rem;">❌ Fotos de la sesión previa</li>
+                            <li style="margin-bottom: 0.5rem;">❌ Mesa de regalos (si aplica)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contacto -->
+            <section class="section">
+                <div class="contact-box">
+                    <h3>📞 Información de Contacto</h3>
+                    <p style="margin-bottom: 1rem;">
+                        <strong>Cliente:</strong> Ana Leticia Franco Sánchez<br>
+                        <strong>Tel/WhatsApp:</strong> <a href="https://wa.me/5214776684807">477 668 4807</a>
+                    </p>
+                    <hr style="border: 1px solid rgba(255,255,255,0.3); margin: 1.5rem 0;">
+                    <p>
+                        <strong>Producciones Foro 7</strong><br>
+                        <strong>WhatsApp:</strong> <a href="https://wa.me/5214779203776">477-920-3776</a><br>
+                        <strong>Email:</strong> <a href="mailto:foro7producciones@gmail.com">foro7producciones@gmail.com</a><br>
+                        <strong>Ubicación:</strong> Padilla 112, Cumbres de Arbide, León, Gto.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Entregables -->
+            <section class="section">
+                <h2 class="section-title">
+                    📦 Productos a Entregar
+                </h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>🖼️ Productos Físicos</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 0.5rem;">📷 100 fotografías impresas 5x7"</li>
+                            <li style="margin-bottom: 0.5rem;">💿 1 USB con video editado</li>
+                            <li style="margin-bottom: 0.5rem;">📦 1 caja impresa para USB</li>
+                            <li style="margin-bottom: 0.5rem;">🖼️ 1 foto ampliada 50x60 cm con marco</li>
+                            <li style="margin-bottom: 0.5rem;">📦 1 caja impresa para fotografías</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>💻 Productos Digitales</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 0.5rem;">🎬 Videoclip para proyección</li>
+                            <li style="margin-bottom: 0.5rem;">📸 Todas las fotos en alta resolución</li>
+                            <li style="margin-bottom: 0.5rem;">🎥 Video completo editado y musicalizado</li>
+                            <li style="margin-bottom: 0.5rem;">🌐 Invitación web personalizada</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Notas Importantes -->
+            <section class="section">
+                <h2 class="section-title">
+                    💡 Notas Importantes
+                </h2>
+                <div class="info-card">
+                    <ul style="line-height: 2;">
+                        <li>✅ Apartado de $500 recibido el 20 de diciembre 2025</li>
+                        <li>⚠️ Saldo de $6,000 debe liquidarse <strong>7 días antes</strong> del evento (9 mayo 2026)</li>
+                        <li>📸 Es fundamental coordinar la sesión fotográfica previa lo antes posible</li>
+                        <li>📍 Verificar permisos para fotografía/video en ambas locaciones</li>
+                        <li>🎵 Confirmar si habrá música en vivo para ajustar equipos de audio</li>
+                        <li>⏰ Confirmar itinerario completo del evento (vals, cena, baile, etc.)</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
