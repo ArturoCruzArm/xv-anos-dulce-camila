@@ -1,17 +1,12 @@
 // Lista de fotos generada automáticamente
-// Total de fotos: 625
-// Generado: 2026-01-12 14:38:30
+// Total de fotos: 475
+// Generado: 2026-01-12 14:59:17
 
 const photos = [
     {
         "name": "DSC_7706",
         "path": "images/DSC_7706.webp",
         "filename": "DSC_7706.webp"
-    },
-    {
-        "name": "DSC_7707",
-        "path": "images/DSC_7707.webp",
-        "filename": "DSC_7707.webp"
     },
     {
         "name": "DSC_7708",
@@ -114,11 +109,6 @@ const photos = [
         "filename": "DSC_7727.webp"
     },
     {
-        "name": "DSC_7728",
-        "path": "images/DSC_7728.webp",
-        "filename": "DSC_7728.webp"
-    },
-    {
         "name": "DSC_7729",
         "path": "images/DSC_7729.webp",
         "filename": "DSC_7729.webp"
@@ -137,11 +127,6 @@ const photos = [
         "name": "DSC_7732",
         "path": "images/DSC_7732.webp",
         "filename": "DSC_7732.webp"
-    },
-    {
-        "name": "DSC_7733",
-        "path": "images/DSC_7733.webp",
-        "filename": "DSC_7733.webp"
     },
     {
         "name": "DSC_7734",
@@ -184,11 +169,6 @@ const photos = [
         "filename": "DSC_7741.webp"
     },
     {
-        "name": "DSC_7742",
-        "path": "images/DSC_7742.webp",
-        "filename": "DSC_7742.webp"
-    },
-    {
         "name": "DSC_7743",
         "path": "images/DSC_7743.webp",
         "filename": "DSC_7743.webp"
@@ -202,11 +182,6 @@ const photos = [
         "name": "DSC_7745",
         "path": "images/DSC_7745.webp",
         "filename": "DSC_7745.webp"
-    },
-    {
-        "name": "DSC_7746",
-        "path": "images/DSC_7746.webp",
-        "filename": "DSC_7746.webp"
     },
     {
         "name": "DSC_7747",
@@ -334,29 +309,9 @@ const photos = [
         "filename": "DSC_7772.webp"
     },
     {
-        "name": "DSC_7773",
-        "path": "images/DSC_7773.webp",
-        "filename": "DSC_7773.webp"
-    },
-    {
         "name": "DSC_7774",
         "path": "images/DSC_7774.webp",
         "filename": "DSC_7774.webp"
-    },
-    {
-        "name": "DSC_7775",
-        "path": "images/DSC_7775.webp",
-        "filename": "DSC_7775.webp"
-    },
-    {
-        "name": "DSC_7776",
-        "path": "images/DSC_7776.webp",
-        "filename": "DSC_7776.webp"
-    },
-    {
-        "name": "DSC_7777",
-        "path": "images/DSC_7777.webp",
-        "filename": "DSC_7777.webp"
     },
     {
         "name": "DSC_7778",
@@ -464,11 +419,6 @@ const photos = [
         "filename": "DSC_7798.webp"
     },
     {
-        "name": "DSC_7799",
-        "path": "images/DSC_7799.webp",
-        "filename": "DSC_7799.webp"
-    },
-    {
         "name": "DSC_7800",
         "path": "images/DSC_7800.webp",
         "filename": "DSC_7800.webp"
@@ -509,16 +459,6 @@ const photos = [
         "filename": "DSC_7807.webp"
     },
     {
-        "name": "DSC_7808",
-        "path": "images/DSC_7808.webp",
-        "filename": "DSC_7808.webp"
-    },
-    {
-        "name": "DSC_7809",
-        "path": "images/DSC_7809.webp",
-        "filename": "DSC_7809.webp"
-    },
-    {
         "name": "DSC_7810",
         "path": "images/DSC_7810.webp",
         "filename": "DSC_7810.webp"
@@ -544,11 +484,6 @@ const photos = [
         "filename": "DSC_7814.webp"
     },
     {
-        "name": "DSC_7815",
-        "path": "images/DSC_7815.webp",
-        "filename": "DSC_7815.webp"
-    },
-    {
         "name": "DSC_7816",
         "path": "images/DSC_7816.webp",
         "filename": "DSC_7816.webp"
@@ -572,11 +507,6 @@ const photos = [
         "name": "DSC_7820",
         "path": "images/DSC_7820.webp",
         "filename": "DSC_7820.webp"
-    },
-    {
-        "name": "DSC_7821",
-        "path": "images/DSC_7821.webp",
-        "filename": "DSC_7821.webp"
     },
     {
         "name": "DSC_7822",
@@ -614,11 +544,6 @@ const photos = [
         "filename": "DSC_7828.webp"
     },
     {
-        "name": "DSC_7829",
-        "path": "images/DSC_7829.webp",
-        "filename": "DSC_7829.webp"
-    },
-    {
         "name": "DSC_7830",
         "path": "images/DSC_7830.webp",
         "filename": "DSC_7830.webp"
@@ -647,11 +572,6 @@ const photos = [
         "name": "DSC_7835",
         "path": "images/DSC_7835.webp",
         "filename": "DSC_7835.webp"
-    },
-    {
-        "name": "DSC_7836",
-        "path": "images/DSC_7836.webp",
-        "filename": "DSC_7836.webp"
     },
     {
         "name": "DSC_7837",
@@ -704,11 +624,6 @@ const photos = [
         "filename": "DSC_7846.webp"
     },
     {
-        "name": "DSC_7847",
-        "path": "images/DSC_7847.webp",
-        "filename": "DSC_7847.webp"
-    },
-    {
         "name": "DSC_7848",
         "path": "images/DSC_7848.webp",
         "filename": "DSC_7848.webp"
@@ -744,74 +659,9 @@ const photos = [
         "filename": "DSC_7854.webp"
     },
     {
-        "name": "DSC_7855",
-        "path": "images/DSC_7855.webp",
-        "filename": "DSC_7855.webp"
-    },
-    {
-        "name": "DSC_7856",
-        "path": "images/DSC_7856.webp",
-        "filename": "DSC_7856.webp"
-    },
-    {
-        "name": "DSC_7857",
-        "path": "images/DSC_7857.webp",
-        "filename": "DSC_7857.webp"
-    },
-    {
-        "name": "DSC_7858",
-        "path": "images/DSC_7858.webp",
-        "filename": "DSC_7858.webp"
-    },
-    {
-        "name": "DSC_7859",
-        "path": "images/DSC_7859.webp",
-        "filename": "DSC_7859.webp"
-    },
-    {
-        "name": "DSC_7860",
-        "path": "images/DSC_7860.webp",
-        "filename": "DSC_7860.webp"
-    },
-    {
-        "name": "DSC_7861",
-        "path": "images/DSC_7861.webp",
-        "filename": "DSC_7861.webp"
-    },
-    {
-        "name": "DSC_7862",
-        "path": "images/DSC_7862.webp",
-        "filename": "DSC_7862.webp"
-    },
-    {
-        "name": "DSC_7863",
-        "path": "images/DSC_7863.webp",
-        "filename": "DSC_7863.webp"
-    },
-    {
-        "name": "DSC_7864",
-        "path": "images/DSC_7864.webp",
-        "filename": "DSC_7864.webp"
-    },
-    {
-        "name": "DSC_7865",
-        "path": "images/DSC_7865.webp",
-        "filename": "DSC_7865.webp"
-    },
-    {
-        "name": "DSC_7866",
-        "path": "images/DSC_7866.webp",
-        "filename": "DSC_7866.webp"
-    },
-    {
         "name": "DSC_7867",
         "path": "images/DSC_7867.webp",
         "filename": "DSC_7867.webp"
-    },
-    {
-        "name": "DSC_7868",
-        "path": "images/DSC_7868.webp",
-        "filename": "DSC_7868.webp"
     },
     {
         "name": "DSC_7869",
@@ -827,11 +677,6 @@ const photos = [
         "name": "DSC_7871",
         "path": "images/DSC_7871.webp",
         "filename": "DSC_7871.webp"
-    },
-    {
-        "name": "DSC_7872",
-        "path": "images/DSC_7872.webp",
-        "filename": "DSC_7872.webp"
     },
     {
         "name": "DSC_7873",
@@ -874,11 +719,6 @@ const photos = [
         "filename": "DSC_7880.webp"
     },
     {
-        "name": "DSC_7881",
-        "path": "images/DSC_7881.webp",
-        "filename": "DSC_7881.webp"
-    },
-    {
         "name": "DSC_7882",
         "path": "images/DSC_7882.webp",
         "filename": "DSC_7882.webp"
@@ -904,11 +744,6 @@ const photos = [
         "filename": "DSC_7886.webp"
     },
     {
-        "name": "DSC_7887",
-        "path": "images/DSC_7887.webp",
-        "filename": "DSC_7887.webp"
-    },
-    {
         "name": "DSC_7888",
         "path": "images/DSC_7888.webp",
         "filename": "DSC_7888.webp"
@@ -917,16 +752,6 @@ const photos = [
         "name": "DSC_7889",
         "path": "images/DSC_7889.webp",
         "filename": "DSC_7889.webp"
-    },
-    {
-        "name": "DSC_7890",
-        "path": "images/DSC_7890.webp",
-        "filename": "DSC_7890.webp"
-    },
-    {
-        "name": "DSC_7891",
-        "path": "images/DSC_7891.webp",
-        "filename": "DSC_7891.webp"
     },
     {
         "name": "DSC_7892",
@@ -1029,34 +854,9 @@ const photos = [
         "filename": "DSC_7911.webp"
     },
     {
-        "name": "DSC_7912",
-        "path": "images/DSC_7912.webp",
-        "filename": "DSC_7912.webp"
-    },
-    {
-        "name": "DSC_7913",
-        "path": "images/DSC_7913.webp",
-        "filename": "DSC_7913.webp"
-    },
-    {
-        "name": "DSC_7914",
-        "path": "images/DSC_7914.webp",
-        "filename": "DSC_7914.webp"
-    },
-    {
-        "name": "DSC_7915",
-        "path": "images/DSC_7915.webp",
-        "filename": "DSC_7915.webp"
-    },
-    {
         "name": "DSC_7916",
         "path": "images/DSC_7916.webp",
         "filename": "DSC_7916.webp"
-    },
-    {
-        "name": "DSC_7917",
-        "path": "images/DSC_7917.webp",
-        "filename": "DSC_7917.webp"
     },
     {
         "name": "DSC_7918",
@@ -1067,21 +867,6 @@ const photos = [
         "name": "DSC_7919",
         "path": "images/DSC_7919.webp",
         "filename": "DSC_7919.webp"
-    },
-    {
-        "name": "DSC_7920",
-        "path": "images/DSC_7920.webp",
-        "filename": "DSC_7920.webp"
-    },
-    {
-        "name": "DSC_7921",
-        "path": "images/DSC_7921.webp",
-        "filename": "DSC_7921.webp"
-    },
-    {
-        "name": "DSC_7922",
-        "path": "images/DSC_7922.webp",
-        "filename": "DSC_7922.webp"
     },
     {
         "name": "DSC_7923",
@@ -1109,11 +894,6 @@ const photos = [
         "filename": "DSC_7927.webp"
     },
     {
-        "name": "DSC_7928",
-        "path": "images/DSC_7928.webp",
-        "filename": "DSC_7928.webp"
-    },
-    {
         "name": "DSC_7929",
         "path": "images/DSC_7929.webp",
         "filename": "DSC_7929.webp"
@@ -1139,29 +919,14 @@ const photos = [
         "filename": "DSC_7934.webp"
     },
     {
-        "name": "DSC_7935",
-        "path": "images/DSC_7935.webp",
-        "filename": "DSC_7935.webp"
-    },
-    {
         "name": "DSC_7936",
         "path": "images/DSC_7936.webp",
         "filename": "DSC_7936.webp"
     },
     {
-        "name": "DSC_7937",
-        "path": "images/DSC_7937.webp",
-        "filename": "DSC_7937.webp"
-    },
-    {
         "name": "DSC_7938",
         "path": "images/DSC_7938.webp",
         "filename": "DSC_7938.webp"
-    },
-    {
-        "name": "DSC_7939",
-        "path": "images/DSC_7939.webp",
-        "filename": "DSC_7939.webp"
     },
     {
         "name": "DSC_7940",
@@ -1174,49 +939,9 @@ const photos = [
         "filename": "DSC_7941.webp"
     },
     {
-        "name": "DSC_7942",
-        "path": "images/DSC_7942.webp",
-        "filename": "DSC_7942.webp"
-    },
-    {
-        "name": "DSC_7943",
-        "path": "images/DSC_7943.webp",
-        "filename": "DSC_7943.webp"
-    },
-    {
-        "name": "DSC_7944",
-        "path": "images/DSC_7944.webp",
-        "filename": "DSC_7944.webp"
-    },
-    {
-        "name": "DSC_7945",
-        "path": "images/DSC_7945.webp",
-        "filename": "DSC_7945.webp"
-    },
-    {
-        "name": "DSC_7946",
-        "path": "images/DSC_7946.webp",
-        "filename": "DSC_7946.webp"
-    },
-    {
-        "name": "DSC_7947",
-        "path": "images/DSC_7947.webp",
-        "filename": "DSC_7947.webp"
-    },
-    {
-        "name": "DSC_7948",
-        "path": "images/DSC_7948.webp",
-        "filename": "DSC_7948.webp"
-    },
-    {
         "name": "DSC_7949",
         "path": "images/DSC_7949.webp",
         "filename": "DSC_7949.webp"
-    },
-    {
-        "name": "DSC_7951",
-        "path": "images/DSC_7951.webp",
-        "filename": "DSC_7951.webp"
     },
     {
         "name": "DSC_7952",
@@ -1224,24 +949,9 @@ const photos = [
         "filename": "DSC_7952.webp"
     },
     {
-        "name": "DSC_7953",
-        "path": "images/DSC_7953.webp",
-        "filename": "DSC_7953.webp"
-    },
-    {
         "name": "DSC_7954",
         "path": "images/DSC_7954.webp",
         "filename": "DSC_7954.webp"
-    },
-    {
-        "name": "DSC_7955",
-        "path": "images/DSC_7955.webp",
-        "filename": "DSC_7955.webp"
-    },
-    {
-        "name": "DSC_7956",
-        "path": "images/DSC_7956.webp",
-        "filename": "DSC_7956.webp"
     },
     {
         "name": "DSC_7957",
@@ -1249,74 +959,14 @@ const photos = [
         "filename": "DSC_7957.webp"
     },
     {
-        "name": "DSC_7959",
-        "path": "images/DSC_7959.webp",
-        "filename": "DSC_7959.webp"
-    },
-    {
         "name": "DSC_7961",
         "path": "images/DSC_7961.webp",
         "filename": "DSC_7961.webp"
     },
     {
-        "name": "DSC_7962",
-        "path": "images/DSC_7962.webp",
-        "filename": "DSC_7962.webp"
-    },
-    {
-        "name": "DSC_7963",
-        "path": "images/DSC_7963.webp",
-        "filename": "DSC_7963.webp"
-    },
-    {
-        "name": "DSC_7964",
-        "path": "images/DSC_7964.webp",
-        "filename": "DSC_7964.webp"
-    },
-    {
-        "name": "DSC_7965",
-        "path": "images/DSC_7965.webp",
-        "filename": "DSC_7965.webp"
-    },
-    {
-        "name": "DSC_7966",
-        "path": "images/DSC_7966.webp",
-        "filename": "DSC_7966.webp"
-    },
-    {
-        "name": "DSC_7967",
-        "path": "images/DSC_7967.webp",
-        "filename": "DSC_7967.webp"
-    },
-    {
         "name": "DSC_7968",
         "path": "images/DSC_7968.webp",
         "filename": "DSC_7968.webp"
-    },
-    {
-        "name": "DSC_7969",
-        "path": "images/DSC_7969.webp",
-        "filename": "DSC_7969.webp"
-    },
-    {
-        "name": "DSC_7970",
-        "path": "images/DSC_7970.webp",
-        "filename": "DSC_7970.webp"
-    },
-    {
-        "name": "DSC_7971",
-        "path": "images/DSC_7971.webp",
-        "filename": "DSC_7971.webp"
-    },
-    {
-        "name": "DSC_7972",
-        "path": "images/DSC_7972.webp",
-        "filename": "DSC_7972.webp"
-    },
-    {
-        "name": "DSC_7973",
-        "path": "images/DSC_7973.webp",
-        "filename": "DSC_7973.webp"
     },
     {
         "name": "DSC_7974",
@@ -1344,11 +994,6 @@ const photos = [
         "filename": "DSC_7978.webp"
     },
     {
-        "name": "DSC_7979",
-        "path": "images/DSC_7979.webp",
-        "filename": "DSC_7979.webp"
-    },
-    {
         "name": "DSC_7980",
         "path": "images/DSC_7980.webp",
         "filename": "DSC_7980.webp"
@@ -1374,16 +1019,6 @@ const photos = [
         "filename": "DSC_7984.webp"
     },
     {
-        "name": "DSC_7985",
-        "path": "images/DSC_7985.webp",
-        "filename": "DSC_7985.webp"
-    },
-    {
-        "name": "DSC_7986",
-        "path": "images/DSC_7986.webp",
-        "filename": "DSC_7986.webp"
-    },
-    {
         "name": "DSC_7987",
         "path": "images/DSC_7987.webp",
         "filename": "DSC_7987.webp"
@@ -1397,11 +1032,6 @@ const photos = [
         "name": "DSC_7989",
         "path": "images/DSC_7989.webp",
         "filename": "DSC_7989.webp"
-    },
-    {
-        "name": "DSC_7990",
-        "path": "images/DSC_7990.webp",
-        "filename": "DSC_7990.webp"
     },
     {
         "name": "DSC_7991",
@@ -1424,46 +1054,6 @@ const photos = [
         "filename": "DSC_7994.webp"
     },
     {
-        "name": "DSC_7995",
-        "path": "images/DSC_7995.webp",
-        "filename": "DSC_7995.webp"
-    },
-    {
-        "name": "DSC_7996",
-        "path": "images/DSC_7996.webp",
-        "filename": "DSC_7996.webp"
-    },
-    {
-        "name": "DSC_7997",
-        "path": "images/DSC_7997.webp",
-        "filename": "DSC_7997.webp"
-    },
-    {
-        "name": "DSC_7998",
-        "path": "images/DSC_7998.webp",
-        "filename": "DSC_7998.webp"
-    },
-    {
-        "name": "DSC_7999",
-        "path": "images/DSC_7999.webp",
-        "filename": "DSC_7999.webp"
-    },
-    {
-        "name": "DSC_8000",
-        "path": "images/DSC_8000.webp",
-        "filename": "DSC_8000.webp"
-    },
-    {
-        "name": "DSC_8001",
-        "path": "images/DSC_8001.webp",
-        "filename": "DSC_8001.webp"
-    },
-    {
-        "name": "DSC_8002",
-        "path": "images/DSC_8002.webp",
-        "filename": "DSC_8002.webp"
-    },
-    {
         "name": "DSC_8003",
         "path": "images/DSC_8003.webp",
         "filename": "DSC_8003.webp"
@@ -1472,21 +1062,6 @@ const photos = [
         "name": "DSC_8004",
         "path": "images/DSC_8004.webp",
         "filename": "DSC_8004.webp"
-    },
-    {
-        "name": "DSC_8006",
-        "path": "images/DSC_8006.webp",
-        "filename": "DSC_8006.webp"
-    },
-    {
-        "name": "DSC_8007",
-        "path": "images/DSC_8007.webp",
-        "filename": "DSC_8007.webp"
-    },
-    {
-        "name": "DSC_8008",
-        "path": "images/DSC_8008.webp",
-        "filename": "DSC_8008.webp"
     },
     {
         "name": "DSC_8009",
@@ -1504,16 +1079,6 @@ const photos = [
         "filename": "DSC_8011.webp"
     },
     {
-        "name": "DSC_8012",
-        "path": "images/DSC_8012.webp",
-        "filename": "DSC_8012.webp"
-    },
-    {
-        "name": "DSC_8013",
-        "path": "images/DSC_8013.webp",
-        "filename": "DSC_8013.webp"
-    },
-    {
         "name": "DSC_8014",
         "path": "images/DSC_8014.webp",
         "filename": "DSC_8014.webp"
@@ -1524,29 +1089,14 @@ const photos = [
         "filename": "DSC_8015.webp"
     },
     {
-        "name": "DSC_8016",
-        "path": "images/DSC_8016.webp",
-        "filename": "DSC_8016.webp"
-    },
-    {
         "name": "DSC_8017",
         "path": "images/DSC_8017.webp",
         "filename": "DSC_8017.webp"
     },
     {
-        "name": "DSC_8018",
-        "path": "images/DSC_8018.webp",
-        "filename": "DSC_8018.webp"
-    },
-    {
         "name": "DSC_8019",
         "path": "images/DSC_8019.webp",
         "filename": "DSC_8019.webp"
-    },
-    {
-        "name": "DSC_8020",
-        "path": "images/DSC_8020.webp",
-        "filename": "DSC_8020.webp"
     },
     {
         "name": "DSC_8021",
@@ -1567,11 +1117,6 @@ const photos = [
         "name": "DSC_8024",
         "path": "images/DSC_8024.webp",
         "filename": "DSC_8024.webp"
-    },
-    {
-        "name": "DSC_8025",
-        "path": "images/DSC_8025.webp",
-        "filename": "DSC_8025.webp"
     },
     {
         "name": "DSC_8026",
@@ -1614,11 +1159,6 @@ const photos = [
         "filename": "DSC_8033.webp"
     },
     {
-        "name": "DSC_8034",
-        "path": "images/DSC_8034.webp",
-        "filename": "DSC_8034.webp"
-    },
-    {
         "name": "DSC_8035",
         "path": "images/DSC_8035.webp",
         "filename": "DSC_8035.webp"
@@ -1644,24 +1184,9 @@ const photos = [
         "filename": "DSC_8039.webp"
     },
     {
-        "name": "DSC_8040",
-        "path": "images/DSC_8040.webp",
-        "filename": "DSC_8040.webp"
-    },
-    {
-        "name": "DSC_8041",
-        "path": "images/DSC_8041.webp",
-        "filename": "DSC_8041.webp"
-    },
-    {
         "name": "DSC_8042",
         "path": "images/DSC_8042.webp",
         "filename": "DSC_8042.webp"
-    },
-    {
-        "name": "DSC_8043",
-        "path": "images/DSC_8043.webp",
-        "filename": "DSC_8043.webp"
     },
     {
         "name": "DSC_8044",
@@ -1674,19 +1199,9 @@ const photos = [
         "filename": "DSC_8045.webp"
     },
     {
-        "name": "DSC_8046",
-        "path": "images/DSC_8046.webp",
-        "filename": "DSC_8046.webp"
-    },
-    {
         "name": "DSC_8047",
         "path": "images/DSC_8047.webp",
         "filename": "DSC_8047.webp"
-    },
-    {
-        "name": "DSC_8048",
-        "path": "images/DSC_8048.webp",
-        "filename": "DSC_8048.webp"
     },
     {
         "name": "DSC_8049",
@@ -1697,26 +1212,6 @@ const photos = [
         "name": "DSC_8050",
         "path": "images/DSC_8050.webp",
         "filename": "DSC_8050.webp"
-    },
-    {
-        "name": "DSC_8051",
-        "path": "images/DSC_8051.webp",
-        "filename": "DSC_8051.webp"
-    },
-    {
-        "name": "DSC_8052",
-        "path": "images/DSC_8052.webp",
-        "filename": "DSC_8052.webp"
-    },
-    {
-        "name": "DSC_8053",
-        "path": "images/DSC_8053.webp",
-        "filename": "DSC_8053.webp"
-    },
-    {
-        "name": "DSC_8054",
-        "path": "images/DSC_8054.webp",
-        "filename": "DSC_8054.webp"
     },
     {
         "name": "DSC_8055",
@@ -1739,19 +1234,9 @@ const photos = [
         "filename": "DSC_8058.webp"
     },
     {
-        "name": "DSC_8059",
-        "path": "images/DSC_8059.webp",
-        "filename": "DSC_8059.webp"
-    },
-    {
         "name": "DSC_8060",
         "path": "images/DSC_8060.webp",
         "filename": "DSC_8060.webp"
-    },
-    {
-        "name": "DSC_8061",
-        "path": "images/DSC_8061.webp",
-        "filename": "DSC_8061.webp"
     },
     {
         "name": "DSC_8062",
@@ -1764,11 +1249,6 @@ const photos = [
         "filename": "DSC_8063.webp"
     },
     {
-        "name": "DSC_8064",
-        "path": "images/DSC_8064.webp",
-        "filename": "DSC_8064.webp"
-    },
-    {
         "name": "DSC_8065",
         "path": "images/DSC_8065.webp",
         "filename": "DSC_8065.webp"
@@ -1779,29 +1259,9 @@ const photos = [
         "filename": "DSC_8066.webp"
     },
     {
-        "name": "DSC_8067",
-        "path": "images/DSC_8067.webp",
-        "filename": "DSC_8067.webp"
-    },
-    {
-        "name": "DSC_8068",
-        "path": "images/DSC_8068.webp",
-        "filename": "DSC_8068.webp"
-    },
-    {
         "name": "DSC_8069",
         "path": "images/DSC_8069.webp",
         "filename": "DSC_8069.webp"
-    },
-    {
-        "name": "DSC_8070",
-        "path": "images/DSC_8070.webp",
-        "filename": "DSC_8070.webp"
-    },
-    {
-        "name": "DSC_8071",
-        "path": "images/DSC_8071.webp",
-        "filename": "DSC_8071.webp"
     },
     {
         "name": "DSC_8072",
@@ -1834,101 +1294,6 @@ const photos = [
         "filename": "DSC_8077.webp"
     },
     {
-        "name": "DSC_8078",
-        "path": "images/DSC_8078.webp",
-        "filename": "DSC_8078.webp"
-    },
-    {
-        "name": "DSC_8079",
-        "path": "images/DSC_8079.webp",
-        "filename": "DSC_8079.webp"
-    },
-    {
-        "name": "DSC_8080",
-        "path": "images/DSC_8080.webp",
-        "filename": "DSC_8080.webp"
-    },
-    {
-        "name": "DSC_8081",
-        "path": "images/DSC_8081.webp",
-        "filename": "DSC_8081.webp"
-    },
-    {
-        "name": "DSC_8082",
-        "path": "images/DSC_8082.webp",
-        "filename": "DSC_8082.webp"
-    },
-    {
-        "name": "DSC_8083",
-        "path": "images/DSC_8083.webp",
-        "filename": "DSC_8083.webp"
-    },
-    {
-        "name": "DSC_8084",
-        "path": "images/DSC_8084.webp",
-        "filename": "DSC_8084.webp"
-    },
-    {
-        "name": "DSC_8085",
-        "path": "images/DSC_8085.webp",
-        "filename": "DSC_8085.webp"
-    },
-    {
-        "name": "DSC_8086",
-        "path": "images/DSC_8086.webp",
-        "filename": "DSC_8086.webp"
-    },
-    {
-        "name": "DSC_8087",
-        "path": "images/DSC_8087.webp",
-        "filename": "DSC_8087.webp"
-    },
-    {
-        "name": "DSC_8088",
-        "path": "images/DSC_8088.webp",
-        "filename": "DSC_8088.webp"
-    },
-    {
-        "name": "DSC_8089",
-        "path": "images/DSC_8089.webp",
-        "filename": "DSC_8089.webp"
-    },
-    {
-        "name": "DSC_8090",
-        "path": "images/DSC_8090.webp",
-        "filename": "DSC_8090.webp"
-    },
-    {
-        "name": "DSC_8091",
-        "path": "images/DSC_8091.webp",
-        "filename": "DSC_8091.webp"
-    },
-    {
-        "name": "DSC_8092",
-        "path": "images/DSC_8092.webp",
-        "filename": "DSC_8092.webp"
-    },
-    {
-        "name": "DSC_8093",
-        "path": "images/DSC_8093.webp",
-        "filename": "DSC_8093.webp"
-    },
-    {
-        "name": "DSC_8094",
-        "path": "images/DSC_8094.webp",
-        "filename": "DSC_8094.webp"
-    },
-    {
-        "name": "DSC_8095",
-        "path": "images/DSC_8095.webp",
-        "filename": "DSC_8095.webp"
-    },
-    {
-        "name": "DSC_8096",
-        "path": "images/DSC_8096.webp",
-        "filename": "DSC_8096.webp"
-    },
-    {
         "name": "DSC_8097",
         "path": "images/DSC_8097.webp",
         "filename": "DSC_8097.webp"
@@ -1944,16 +1309,6 @@ const photos = [
         "filename": "DSC_8099.webp"
     },
     {
-        "name": "DSC_8100",
-        "path": "images/DSC_8100.webp",
-        "filename": "DSC_8100.webp"
-    },
-    {
-        "name": "DSC_8101",
-        "path": "images/DSC_8101.webp",
-        "filename": "DSC_8101.webp"
-    },
-    {
         "name": "DSC_8102",
         "path": "images/DSC_8102.webp",
         "filename": "DSC_8102.webp"
@@ -1967,11 +1322,6 @@ const photos = [
         "name": "DSC_8104",
         "path": "images/DSC_8104.webp",
         "filename": "DSC_8104.webp"
-    },
-    {
-        "name": "DSC_8105",
-        "path": "images/DSC_8105.webp",
-        "filename": "DSC_8105.webp"
     },
     {
         "name": "DSC_8106",
@@ -2274,16 +1624,6 @@ const photos = [
         "filename": "DSC_8165.webp"
     },
     {
-        "name": "DSC_8166",
-        "path": "images/DSC_8166.webp",
-        "filename": "DSC_8166.webp"
-    },
-    {
-        "name": "DSC_8167",
-        "path": "images/DSC_8167.webp",
-        "filename": "DSC_8167.webp"
-    },
-    {
         "name": "DSC_8168",
         "path": "images/DSC_8168.webp",
         "filename": "DSC_8168.webp"
@@ -2319,11 +1659,6 @@ const photos = [
         "filename": "DSC_8174.webp"
     },
     {
-        "name": "DSC_8175",
-        "path": "images/DSC_8175.webp",
-        "filename": "DSC_8175.webp"
-    },
-    {
         "name": "DSC_8176",
         "path": "images/DSC_8176.webp",
         "filename": "DSC_8176.webp"
@@ -2344,34 +1679,9 @@ const photos = [
         "filename": "DSC_8179.webp"
     },
     {
-        "name": "DSC_8181",
-        "path": "images/DSC_8181.webp",
-        "filename": "DSC_8181.webp"
-    },
-    {
-        "name": "DSC_8182",
-        "path": "images/DSC_8182.webp",
-        "filename": "DSC_8182.webp"
-    },
-    {
         "name": "DSC_8183",
         "path": "images/DSC_8183.webp",
         "filename": "DSC_8183.webp"
-    },
-    {
-        "name": "DSC_8184",
-        "path": "images/DSC_8184.webp",
-        "filename": "DSC_8184.webp"
-    },
-    {
-        "name": "DSC_8185",
-        "path": "images/DSC_8185.webp",
-        "filename": "DSC_8185.webp"
-    },
-    {
-        "name": "DSC_8186",
-        "path": "images/DSC_8186.webp",
-        "filename": "DSC_8186.webp"
     },
     {
         "name": "DSC_8188",
@@ -2429,11 +1739,6 @@ const photos = [
         "filename": "DSC_8198.webp"
     },
     {
-        "name": "DSC_8199",
-        "path": "images/DSC_8199.webp",
-        "filename": "DSC_8199.webp"
-    },
-    {
         "name": "DSC_8200",
         "path": "images/DSC_8200.webp",
         "filename": "DSC_8200.webp"
@@ -2442,16 +1747,6 @@ const photos = [
         "name": "DSC_8201",
         "path": "images/DSC_8201.webp",
         "filename": "DSC_8201.webp"
-    },
-    {
-        "name": "DSC_8202",
-        "path": "images/DSC_8202.webp",
-        "filename": "DSC_8202.webp"
-    },
-    {
-        "name": "DSC_8203",
-        "path": "images/DSC_8203.webp",
-        "filename": "DSC_8203.webp"
     },
     {
         "name": "DSC_8204",
@@ -2524,11 +1819,6 @@ const photos = [
         "filename": "DSC_8217.webp"
     },
     {
-        "name": "DSC_8218",
-        "path": "images/DSC_8218.webp",
-        "filename": "DSC_8218.webp"
-    },
-    {
         "name": "DSC_8219",
         "path": "images/DSC_8219.webp",
         "filename": "DSC_8219.webp"
@@ -2559,19 +1849,9 @@ const photos = [
         "filename": "DSC_8224.webp"
     },
     {
-        "name": "DSC_8225",
-        "path": "images/DSC_8225.webp",
-        "filename": "DSC_8225.webp"
-    },
-    {
         "name": "DSC_8226",
         "path": "images/DSC_8226.webp",
         "filename": "DSC_8226.webp"
-    },
-    {
-        "name": "DSC_8227",
-        "path": "images/DSC_8227.webp",
-        "filename": "DSC_8227.webp"
     },
     {
         "name": "DSC_8228",
@@ -2779,39 +2059,14 @@ const photos = [
         "filename": "DSC_8269.webp"
     },
     {
-        "name": "DSC_8270",
-        "path": "images/DSC_8270.webp",
-        "filename": "DSC_8270.webp"
-    },
-    {
-        "name": "DSC_8271",
-        "path": "images/DSC_8271.webp",
-        "filename": "DSC_8271.webp"
-    },
-    {
-        "name": "DSC_8272",
-        "path": "images/DSC_8272.webp",
-        "filename": "DSC_8272.webp"
-    },
-    {
         "name": "DSC_8273",
         "path": "images/DSC_8273.webp",
         "filename": "DSC_8273.webp"
     },
     {
-        "name": "DSC_8274",
-        "path": "images/DSC_8274.webp",
-        "filename": "DSC_8274.webp"
-    },
-    {
         "name": "DSC_8275",
         "path": "images/DSC_8275.webp",
         "filename": "DSC_8275.webp"
-    },
-    {
-        "name": "DSC_8276",
-        "path": "images/DSC_8276.webp",
-        "filename": "DSC_8276.webp"
     },
     {
         "name": "DSC_8277",
@@ -3007,11 +2262,6 @@ const photos = [
         "name": "IMG_0343",
         "path": "images/IMG_0343.webp",
         "filename": "IMG_0343.webp"
-    },
-    {
-        "name": "IMG_0344",
-        "path": "images/IMG_0344.webp",
-        "filename": "IMG_0344.webp"
     },
     {
         "name": "IMG_0345",
