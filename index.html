@@ -330,22 +330,6 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <h2 class="info-title">Confirma tu Asistencia</h2>
-            <div class="decorative-line"></div>
-            <p style="margin: 2rem 0; color: #666; font-size: 1.1rem;">
-                Por favor, confirma tu asistencia antes del 1 de mayo de 2026
-            </p>
-            <a href="https://wa.me/5214776684807?text=Hola,%20confirmo%20mi%20asistencia%20a%20los%20XV%20años%20de%20Dulce%20Camila" class="cta-button">
-                📱 Confirmar por WhatsApp
-            </a>
-            <p style="margin-top: 2rem; color: #999;">
-                Ana Leticia Franco Sánchez<br>
-                Tel: 477 668 4807
-            </p>
-        </div>
-    </section>
 
     <!-- Gallery Section (Placeholder) -->
     <section class="info-section" style="background: #f5f7fa;">
@@ -423,6 +407,66 @@
     <script src="js/visitas.js?v=1"></script>
 
     <script src="js/rsvp-guest.js"></script>
+    <script>
+    // RSVP anónimo: guarda en Supabase + abre WhatsApp (cuando no hay ?inv=token)
+    (function () {
+        const token = new URLSearchParams(window.location.search).get('inv');
+        if (token) return; // rsvp-guest.js lo maneja
+
+        const SB_URL  = 'https://nzpujmlienzfetqcgsxz.supabase.co';
+        const SB_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im56cHVqbWxpZW56ZmV0cWNnc3h6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ2ODYzMzYsImV4cCI6MjA5MDI2MjMzNn0.xl3lsb-KYj5tVLKTnzpbsdEGoV9ySnswH4eyRuyEH1s';
+        const SB_H    = { 'apikey': SB_ANON, 'Authorization': 'Bearer ' + SB_ANON, 'Content-Type': 'application/json' };
+        const SLUG    = 'xv-anos-dulce-camila';
+        const WA_NUM  = '5214776684807'; // Ana Leticia Franco Sánchez
+
+        function attachHandler() {
+            const form = document.getElementById('rsvpForm');
+            if (!form) return;
+
+            form.addEventListener('submit', async function (e) {
+                e.preventDefault();
+                const nombre  = (document.getElementById('name')?.value || '').trim();
+                const pases   = parseInt(document.getElementById('guests')?.value || '1');
+                const asiste  = document.getElementById('attendance')?.value === 'si';
+                const mensaje = (document.getElementById('message')?.value || '').trim();
+                if (!nombre) return;
+
+                const btn = form.querySelector('button[type="submit"]');
+                if (btn) { btn.disabled = true; btn.textContent = 'Enviando...'; }
+
+                try {
+                    const evR = await fetch(`${SB_URL}/rest/v1/eventos?slug=eq.${SLUG}&select=id&limit=1`, { headers: SB_H });
+                    const [ev] = await evR.json();
+                    if (ev?.id) {
+                        await fetch(`${SB_URL}/rest/v1/invitados`, {
+                            method: 'POST',
+                            headers: { ...SB_H, 'Prefer': 'return=minimal' },
+                            body: JSON.stringify({
+                                evento_id: ev.id,
+                                nombre, pases_asignados: pases, pases_confirmados: pases,
+                                asiste, status: asiste ? 'confirmada' : 'declinada',
+                                mensaje: mensaje || null,
+                                fecha_confirmacion: new Date().toISOString()
+                            })
+                        });
+                    }
+                } catch (err) {}
+
+                form.style.display = 'none';
+                const succ = document.getElementById('successMessage');
+                if (succ) succ.style.display = 'block';
+
+                const txt = asiste
+                    ? `Hola, confirmo mi asistencia a los XV años de Dulce Camila.\nNombre: ${nombre}\nPersonas: ${pases}${mensaje ? '\nMensaje: ' + mensaje : ''}`
+                    : `Hola, lamentablemente no podré asistir a los XV años de Dulce Camila.\nNombre: ${nombre}${mensaje ? '\nMensaje: ' + mensaje : ''}`;
+                setTimeout(() => window.open(`https://wa.me/${WA_NUM}?text=${encodeURIComponent(txt)}`, '_blank'), 400);
+            });
+        }
+
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', attachHandler);
+        else attachHandler();
+    })();
+    </script>
 <script src="js/foro7-footer.js"></script>
 </body>
 </html>
